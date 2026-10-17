@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="插件热更">
+  <!-- No backing plate. The ring uses the canvas the way the other plugin icons
+       do (outer edge ≈10.5), the module square stays modest, and the head is a
+       filled triangle whose base is a radial line through the stroke: equal
+       clearance on both sides, tip along the tangent, inner corner clear of the
+       square. -->
+  <path d="M20.94 9.10A9.4 9.4 0 1 1 17.39 4.30" fill="none" stroke="#3964FE" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M19.97 7.02 19.00 2.01 15.79 6.59z" fill="#3964FE"/>
+  <rect x="8.4" y="8.4" width="7.2" height="7.2" rx="1.7" fill="none" stroke="#54626f" stroke-width="2.1"/>
+</svg>

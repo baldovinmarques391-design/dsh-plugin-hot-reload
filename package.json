@@ -1,0 +1,35 @@
+{
+  "name": "dsh-plugin-hot-reload",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "description": "Reads plugin display metadata and browser modules from disk on every query, so edits and moves apply without restarting DSH.",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md",
+    "test/*.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "developer-tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baldovinmarques391-design/dsh-plugin-hot-reload.git"
+  }
+}

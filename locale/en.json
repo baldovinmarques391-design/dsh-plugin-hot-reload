@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Plugin hot reload",
+    "description": "Titles, descriptions, icons, and browser modules are read from disk on every query, so an edit or a moved directory applies without restarting DSH."
+  }
+}

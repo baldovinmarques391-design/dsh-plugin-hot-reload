@@ -1,0 +1,3 @@
+- insert:
+    - id: plugin-hot-reload
+      name: dsh-plugin-hot-reload
